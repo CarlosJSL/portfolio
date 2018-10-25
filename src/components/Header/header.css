@@ -1,0 +1,49 @@
+.header-bar {
+    background-color: white;
+    box-shadow: black 0px 0px 18px;
+    height: 60px;
+    border: 0px !important;
+    border-radius: 0px;
+}
+
+.list-inline{
+    float: right;
+    margin-top: 18px;
+    margin-right: 20px
+}
+
+.list-inline-item{
+    cursor: pointer;
+    font-size: 18px
+}
+
+.list-inline-item:not(:last-child){
+    margin-right: 60px
+}
+
+.list-inline-item:hover{
+    color: black
+}
+
+#logo{
+    width: 50px;
+    height: 50px;
+    margin-top: 4px;
+    position: absolute;
+    cursor: pointer;
+    margin-left: 50%;
+}
+.header-items{
+    float: right;
+    font-size: 20px;
+    color: #008080;
+}
+
+span {
+    top: 50px !important;
+    margin-left: 20px;
+}
+
+.navbar-nav{
+    margin-top: 10px !important;
+}

@@ -1,0 +1,27 @@
+.projects-cards-left{
+    float: left;
+    margin-left: 15%;
+    width: 30%;
+}
+
+.projects-cards-right{
+    float: right;
+    margin-right: 15%;
+    width: 30%;
+}
+
+.projects {
+    width: 40vh;
+}
+
+.project-title {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+@media only screen and (max-width: 768px) {
+    .card {
+        margin-top: 15px;
+    }
+}

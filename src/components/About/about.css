@@ -1,0 +1,30 @@
+h2{
+    font-size: 50px;
+    color: #008080;
+}
+
+
+.about-me{
+    margin-top: 30px;
+    background-color: white;
+    text-align: center;
+}
+
+.center-box{
+    display: inline-block;
+    width: 500px;
+    word-break: break-all;
+    text-align: justify;
+}
+
+.profile-photo{
+    width: 200px;
+    box-shadow: black 0px 8px 35px;
+    border-radius: 110px;
+}
+
+@media only screen and (max-width: 600px) {
+    #resume {
+        width: 305px;
+    }
+}
